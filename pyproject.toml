@@ -1,10 +1,19 @@
-[project]
-name = "shimmer-ssd-tutorials"
+[tool.poetry]
+name = "shimmer-tutorials"
 version = "0.1.0"
-description = "Tutorials for shimmer and the simple-shapes dataset"
+description = ""
+authors = ["bdvllrs <bdvllrs@gmail.com>"]
+license = "MIT"
 readme = "README.md"
-requires-python = ">=3.11"
-dependencies = [
-    "ipympl>=0.9.6",
-    "jupyterlab>=4.3.4",
-]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "~3.11"
+jupyterlab = "^4.3.4"
+ipympl = "^0.9.6"
+shimmer-ssd = {git = "git@github.com:ruflab/shimmer-ssd.git", rev = "main"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
