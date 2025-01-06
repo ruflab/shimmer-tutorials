@@ -14,6 +14,11 @@ ipympl = "^0.9.6"
 shimmer-ssd = {git = "git@github.com:ruflab/shimmer-ssd.git", rev = "main"}
 
 
+[tool.poetry.group.dev.dependencies]
+jupyterlab-vim = "^4.1.4"
+jupyterlab-code-formatter = "^3.0.2"
+ruff = "^0.8.6"
+
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
