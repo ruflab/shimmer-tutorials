@@ -1,0 +1,10 @@
+[project]
+name = "shimmer-ssd-tutorials"
+version = "0.1.0"
+description = "Tutorials for shimmer and the simple-shapes dataset"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "ipympl>=0.9.6",
+    "jupyterlab>=4.3.4",
+]
