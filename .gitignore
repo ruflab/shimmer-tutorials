@@ -166,3 +166,9 @@ cython_debug/
 .rgignore
 
 .ruff_cache/
+
+simple_shapes_dataset/
+dataset.tar.gz
+tokenizer/
+checkpoints/
+config/
