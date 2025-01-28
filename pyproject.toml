@@ -12,6 +12,7 @@ python = "~3.11"
 jupyterlab = "^4.3.4"
 ipympl = "^0.9.6"
 shimmer-ssd = {git = "git@github.com:ruflab/shimmer-ssd.git", rev = "main"}
+tensorboard = "^2.18.0"
 
 
 [tool.poetry.group.dev.dependencies]

@@ -172,3 +172,4 @@ dataset.tar.gz
 tokenizer/
 checkpoints/
 config/
+logs/
