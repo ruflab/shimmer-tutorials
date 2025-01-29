@@ -4336,7 +4336,7 @@ wandb = ">=0.18.3,<1.0.0"
 type = "git"
 url = "ssh://git@github.com/ruflab/shimmer-ssd.git"
 reference = "main"
-resolved_reference = "dff3767dd5fdd47c4fc4f6dde2cff3624e069dbd"
+resolved_reference = "d8cfce6a6cc52e6780f258839109af9db4141370"
 
 [[package]]
 name = "simple-shapes-dataset"
