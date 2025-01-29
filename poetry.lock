@@ -306,7 +306,7 @@ numpy = "^1.26"
 
 [package.source]
 type = "git"
-url = "https://github.com/bdvllrs/attributes-to-language.git"
+url = "https://github.com/ruflab/attributes-to-language.git"
 reference = "v0.4.0"
 resolved_reference = "c3d3c6823a1a8d968a71f786a2384a8b14c3be77"
 
@@ -342,8 +342,8 @@ develop = false
 
 [package.source]
 type = "git"
-url = "https://github.com/bdvllrs/auto-sbatch.git"
-reference = "v0.4.1"
+url = "https://github.com/ruflab/auto-sbatch.git"
+reference = "main"
 resolved_reference = "a1db0c14b65149141d0fb2ce32721a3de40ace91"
 
 [[package]]
@@ -512,7 +512,7 @@ ruamel-yaml = "^0.18.6"
 
 [package.source]
 type = "git"
-url = "https://github.com/bdvllrs/cfg-tools.git"
+url = "https://github.com/ruflab/cfg-tools.git"
 reference = "main"
 resolved_reference = "4cdb0d0c2cd846381b7f2425299b25b3524ff151"
 
@@ -2185,7 +2185,7 @@ develop = false
 
 [package.source]
 type = "git"
-url = "https://github.com/bdvllrs/migrate-ckpt.git"
+url = "https://github.com/ruflab/migrate-ckpt.git"
 reference = "v0.2.0"
 resolved_reference = "6a78a0cfd6abafa77310307025581eb2d62bcde7"
 
@@ -4288,7 +4288,7 @@ develop = false
 click = ">=8.1.7,<9.0.0"
 lightning = ">=2.1.0,<3.0.0"
 matplotlib = ">=3.9.1,<4.0.0"
-migrate-ckpt = {git = "https://github.com/bdvllrs/migrate-ckpt.git", rev = "v0.2.0"}
+migrate-ckpt = {git = "https://github.com/ruflab/migrate-ckpt.git", rev = "v0.2.0"}
 numpy = ">=1.26.0,<2.0.0"
 pandas = ">=2.2.2,<3.0.0"
 torch = ">=2.0.1,<3.0.0"
@@ -4297,7 +4297,7 @@ torch = ">=2.0.1,<3.0.0"
 type = "git"
 url = "https://github.com/ruflab/shimmer.git"
 reference = "main"
-resolved_reference = "cebc0d827f3e71322e03e0b4328b63bb412962ff"
+resolved_reference = "c2731ff5a4d759a03ea64172aec50c2ce9bcd70d"
 
 [[package]]
 name = "shimmer-ssd"
@@ -4310,13 +4310,13 @@ files = []
 develop = false
 
 [package.dependencies]
-attributes-to-language = {git = "https://github.com/bdvllrs/attributes-to-language.git", rev = "v0.4.0"}
-auto-sbatch = {git = "https://github.com/bdvllrs/auto-sbatch.git", rev = "v0.4.1"}
-cfg-tools = {git = "https://github.com/bdvllrs/cfg-tools.git", rev = "main"}
+attributes-to-language = {git = "https://github.com/ruflab/attributes-to-language.git", rev = "v0.4.0"}
+auto-sbatch = {git = "https://github.com/ruflab/auto-sbatch.git", rev = "main"}
+cfg-tools = {git = "https://github.com/ruflab/cfg-tools.git", rev = "main"}
 click = ">=8.1.3,<9.0.0"
 lightning = ">=2.1.0,<3.0.0"
 matplotlib = ">=3.7.0,<4.0.0"
-migrate-ckpt = {git = "https://github.com/bdvllrs/migrate-ckpt.git", rev = "v0.2.0"}
+migrate-ckpt = {git = "https://github.com/ruflab/migrate-ckpt.git", rev = "v0.2.0"}
 numpy = ">=1.26,<2.0"
 opencv-python = ">=4.7.0.72,<5.0.0.0"
 pillow = ">=10.3.0,<11.0.0"
@@ -4336,7 +4336,7 @@ wandb = ">=0.18.3,<1.0.0"
 type = "git"
 url = "ssh://git@github.com/ruflab/shimmer-ssd.git"
 reference = "main"
-resolved_reference = "d8cfce6a6cc52e6780f258839109af9db4141370"
+resolved_reference = "09bf32912dbf81fff68c845a0071ff5c12af366e"
 
 [[package]]
 name = "simple-shapes-dataset"
@@ -4349,7 +4349,7 @@ files = []
 develop = false
 
 [package.dependencies]
-attributes-to-language = {git = "https://github.com/bdvllrs/attributes-to-language.git", rev = "v0.4.0"}
+attributes-to-language = {git = "https://github.com/ruflab/attributes-to-language.git", rev = "v0.4.0"}
 click = ">=8.1.3,<9.0.0"
 lightning = ">=2.1.0,<3.0.0"
 matplotlib = ">=3.7.0,<4.0.0"
@@ -4365,7 +4365,7 @@ transformers = ">=4.30.2,<5.0.0"
 type = "git"
 url = "https://github.com/ruflab/simple-shapes-dataset.git"
 reference = "main"
-resolved_reference = "d652d932b0f0b54e034da7937eceb1317d5237b6"
+resolved_reference = "83f6e748d63d5be5ea9d1c746e2e51ba6dcaed56"
 
 [[package]]
 name = "six"
