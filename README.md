@@ -9,4 +9,5 @@ Play with a pretrained Global Workspace between image and texts.
 
 ## Training tutorial
 Train and play with a pretrained Global Workspace between image and attributes.
+
 [https://colab.research.google.com/github/ruflab/shimmer-tutorials/blob/main/simple-shapes-dataset-training.ipynb](https://colab.research.google.com/github/ruflab/shimmer-tutorials/blob/main/simple-shapes-dataset-training.ipynb)
